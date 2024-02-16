@@ -1,36 +1,80 @@
 * {
     padding: 0;
     margin: 0;
-    width: 1600px;
-    height: 5870px;
-    box-sizing: border-box;
-    
+    /* height: 5870px; */
+    box-sizing: border-box;   
+    list-style: none;
+    text-decoration: none;
 }
-.logojon{
-    
-    width: 160px;
-    height: 41px;
-    margin-top: 135px;
-    margin-left: 247px;
+
+.container{
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 100px;
+}
+header{
+    padding: 20px 0;
+}
+navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar__link{
+    display: flex;
+    gap: 40px;
 }
 .circles{
-    width: 131.58px;
-    height: 115px;
     position: absolute;
-    top: 239px;
-    left: 6px;
 }
-.handler{
-    width: 1487px ;
-    height: 719px;
-    position: absolute;
-    top: 135px;
-    left: 6px;
+.inner{
+    display: flex;
+    justify-content: space-between;
 }
-.illustration{
-    width: 693px;
-    height: 598px;
-    position: absolute;
-    top:  256px;
-    left: 800px;
+.text{
+    width: 445px;
+    height: 338px;
+   
+    padding-top: 110px;
+}
+.vh{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0em;
+    padding-bottom: 20px;
+
+}
+.textpar{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7D7987;
+    
+    padding-bottom: 50px;
+
+
+}
+.consult{
+    width: 200px;
+    height: 60PX;
+    background-color: #458FF6;
+    border-radius: 55px;
+   cursor: pointer;
+    outline: none;
+    border: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+    border: 1px solid  transparent;
+    transition: all 0.2s;
+}
+
+.consult:hover{
+    background-color: white;
+    border: 1px solid  #458FF6;
+    color: #458FF6;
+    transition: all 0.2s;
 }
