@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 1600px;
+    height: 5870px;
+    box-sizing: border-box;
+    
+}
+.logojon{
+    
+    width: 160px;
+    height: 41px;
+    margin-top: 135px;
+    margin-left: 247px;
+}
+.circles{
+    width: 131.58px;
+    height: 115px;
+    position: absolute;
+    top: 239px;
+    left: 6px;
+}
+.handler{
+    width: 1487px ;
+    height: 719px;
+    position: absolute;
+    top: 135px;
+    left: 6px;
+}
+.illustration{
+    width: 693px;
+    height: 598px;
+    position: absolute;
+    top:  256px;
+    left: 800px;
+}
