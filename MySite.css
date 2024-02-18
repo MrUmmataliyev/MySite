@@ -20,6 +20,17 @@ navbar{
     display: flex;
     justify-content: space-between;
 }
+.links{
+    color: #757379;
+    font-size: 18px;
+    transition: all 0.2s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.links:hover{
+    color: black;
+    transition: all 0.2s;
+    font-size: 20px;
+}
 .navbar__link{
     display: flex;
     gap: 40px;
