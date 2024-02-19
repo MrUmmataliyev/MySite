@@ -92,8 +92,9 @@ navbar{
 .our__servis{
     max-width: 1450px;
     padding-top: 100px;
-    padding-left: 220px;
+    padding-left: 175px;
     height: 1133px;
+    
    
 }
 .text__ser{
@@ -121,8 +122,27 @@ navbar{
     color: #757379;
 }
 
+.services{
+    position: relative;
+}
 .vector{
     position: absolute;
-    top: 1200px;
-    left: -300px;
+    z-index: -99;
+    top: 310px;
+    
+}
+.boxes{
+    width: 1120px;
+    height: 745px;
+    margin-top: 50px;
+}
+.box1{
+    width: 350px;
+    height: 354px;
+    background-color: white;
+    border-radius: 20px;
+}
+.lupa{
+    padding-left: 30px;
+    padding-top: 30px;
 }
