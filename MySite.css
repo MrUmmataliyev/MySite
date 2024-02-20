@@ -95,6 +95,7 @@ navbar{
     padding-left: 175px;
     height: 1133px;
     
+    
    
 }
 .text__ser{
@@ -135,6 +136,10 @@ navbar{
     width: 1120px;
     height: 745px;
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
 }
 .box1{
     width: 350px;
@@ -145,4 +150,47 @@ navbar{
 .lupa{
     padding-left: 30px;
     padding-top: 30px;
+    width: 92px;
+    height: 90px;
+}
+
+.box2{
+    width: 350px;
+    height: 354px;
+    background-color: rgb(26, 22, 22);
+    border-radius: 20px;
+    padding-left: 30px;
+   
+}
+.box3{
+    width: 350px;
+    height: 354px;
+    background-color: rgb(195, 37, 37);
+    border-radius: 20px;
+    padding-left: 30px;
+   
+}
+.box4{
+    width: 350px;
+    height: 354px;
+    background-color: rgb(37, 205, 22);
+    border-radius: 20px;
+    padding-left: 30px;
+   
+}
+.box5{
+    width: 350px;
+    height: 354px;
+    background-color: rgb(190, 205, 22);
+    border-radius: 20px;
+    padding-left: 30px;
+   
+}
+.box6{
+    width: 350px;
+    height: 354px;
+    background-color: rgb(37, 205, 22);
+    border-radius: 20px;
+    padding-left: 30px;
+   
 }
